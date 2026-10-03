@@ -1,6 +1,6 @@
 <div align="center">
 
-![Datapack Icons](./assets/dp_title.png)
+![Datapack Icons](https://raw.githubusercontent.com/ajr-uribe/datapack-icons-acode/refs/heads/master/.github/assets/dp_title.png)
 
 <p align="center">
   <a href="LICENSE">
