@@ -1,0 +1,21 @@
+{
+  "name": "datapack-icons-acode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "postbuild": "scripts/zip",
+    "pack": "cd plugin && zip ../plugin.zip *"
+  },
+  "keywords": [],
+  "author": "ajr-uribe",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "acode-plugin-types": "^1.12.9",
+    "esbuild": "^0.28.2",
+    "typescript": "5.9.3"
+  }
+}

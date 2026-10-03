@@ -1,0 +1,5 @@
+ROOT_DIR=$(git rev-parse --show-toplevel 2>/dev/null || realpath "$(dirname "$0")/../")
+
+cd $ROOT_DIR/plugin
+
+zip -ru $ROOT_DIR/plugin.zip *
