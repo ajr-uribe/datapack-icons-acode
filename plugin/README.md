@@ -103,6 +103,7 @@ Purchasing the Christmas plugin is also a way to support the continued developme
 
 - Buy the Christmas folder theme plugin once it is released.
 - Support directly on Ko-fi: [ko-fi.com/ajr_uribe](https://ko-fi.com/ajr_uribe)
+- Support via paypal: [paypal.me/ajrurib3](https://paypal.me/ajrurib3)
 
 Every contribution helps make future plugins and updates possible.
 
