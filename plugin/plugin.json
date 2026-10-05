@@ -3,7 +3,7 @@
 	"id": "ajr.datapack_icons.acode",
 	"name": "Datapack Icons",
 	"main": "main.js",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"repository": "https://github.com/ajr-uribe/datapack-icons-acode",
 	"icon": "icon.png",
 	"minVersionCode": 1012,
