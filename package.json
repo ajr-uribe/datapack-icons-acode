@@ -1,17 +1,18 @@
 {
   "name": "datapack-icons-acode",
   "version": "1.0.0",
-  "description": "",
+  "description": "Datapack Icons plugin for Acode Editor",
   "main": "index.js",
   "scripts": {
+    "check": "tsc --noEmit",
     "build": "node build.js",
-    "postbuild": "scripts/zip",
-    "pack": "cd plugin && zip ../plugin.zip *"
+    "postbuild": "scripts/zip"
   },
   "keywords": [],
   "author": "ajr-uribe",
   "license": "MIT",
   "type": "module",
+  "packageManager": "pnpm@12.8.1",
   "devDependencies": {
     "@types/node": "^22.20.2",
     "acode-plugin-types": "^1.12.9",

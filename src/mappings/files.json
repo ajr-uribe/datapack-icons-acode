@@ -2,20 +2,32 @@
   "fileNames": {
     "package.json": "npm_file",
     "package-lock.json": "npm_file",
+    ".npmrc": "npm_file",
+
+    "pnpm-lock.yaml": "lock_file",
+    "pnpm-lock.yml": "lock_file",
+
     "npm-shrinkwrap.json": "npm_file",
+
     "biomes_client.json": "biomes_client_json_file",
+    "client_biome.json": "biomes_client_json_file",
     "blocks.json": "blocks_json_file",
-    "block_culling": "block_culling_file",
-    "blockstates": "blockstates_file",
+
     ".editorconfig": "editorconfig_file",
     "editorconfig": "editorconfig_file",
     ".EDITORCONFIG": "editorconfig_file",
+
     "CONTRIBUTING": "contributing_file",
     "CONTRIBUTING.md": "contributing_file",
+    "CONTRIBUTING.txt": "contributing_file",
     "contributing": "contributing_file",
     "contributing.md": "contributing_file",
+
     "COPYRIGHT": "copyright_file",
+    "COPYRIGHT.md": "copyright_file",
     "copyright": "copyright_file",
+    "copyright.md": "copyright_file",
+
     "LICENSE": "license_file",
     "LICENCE": "license_file",
     "license": "license_file",
@@ -24,57 +36,198 @@
     "LICENCE.md": "license_file",
     "license.md": "license_file",
     "licence.md": "license_file",
+    "LICENSE.txt": "license_file",
+    "LICENCE.txt": "license_file",
+
     ".gitignore": "gitignore_file",
     ".GITIGNORE": "gitignore_file",
+
     ".godotignore": "godotignore_file",
     "godot.project": "godot_project_file",
     "project.godot": "godot_project_file",
+
     "jsconfig.json": "jsconfig_file",
+    "tsconfig.json": "tsconfig_file",
+
     "level.dat": "level_dat_file",
+
     "load.json": "load_json_file",
+    "tick.json": "tick_json_file",
+
     ".npmignore": "npmignore_file",
+
     "pack.mcmeta": "pack_mcmeta_file",
+    "manifest.json": "pack_mcmeta_file",
+
     ".prettierignore": "prettierignore_file",
     ".prettierrc": "prettier_file",
     ".prettierrc.json": "prettier_file",
+    ".prettierrc.json5": "prettier_file",
     ".prettierrc.yml": "prettier_file",
     ".prettierrc.yaml": "prettier_file",
+
     "README": "readme_file",
     "README.md": "readme_file",
     "readme.md": "readme_file",
     "README.txt": "readme_file",
     "readme.txt": "readme_file",
+
     "requirements.txt": "requirements_txt_file",
     "REQUIREMENTS.txt": "requirements_txt_file",
+
     "sounds.json": "sounds_json_file",
+
     "splashes.json": "splashes_json_file",
-    "tick.json": "tick_json_file",
-    "tsconfig.json": "tsconfig_file",
-    "TODO": "todo_file",
-    "TODO.md": "todo_file",
-    "todo": "todo_file",
-    "todo.md": "todo_file",
-    ".vscodeignore": "vscodeignore_file",
+    "splashes.txt": "splashes_json_file",
+
     "spigot.yml": "spigot_file",
+    "spigot.yaml": "spigot_file",
+
     "paper.yml": "paper_file",
+    "paper.yaml": "paper_file",
     "paper-global.yml": "paper_file",
-    "purpur.yml": "purpur_file"
+    "paper-global.yaml": "paper_file",
+    "paper-plugin.yml": "paper_file",
+    "paper-plugin.yaml": "paper_file",
+    "paper-world.yml": "paper_file",
+    "paper-world.yaml": "paper_file",
+    "paper-world-defaults.yml": "paper_file",
+    "paper-world-defaults.yaml": "paper_file",
+
+    "purpur.yml": "purpur_file",
+    "purpur.yaml": "purpur_file",
+
+    "bukkit.yml": "bukkit_file",
+    "bukkit.yaml": "bukkit_file",
+    "plugin.yml": "bukkit_file",
+    "plugin.yaml": "bukkit_file",
+
+    "Cargo.toml": "cargo_file",
+
+    "fabric-mod.json": "fabric_file",
+
+    "mods.toml": "forge_file",
+    "mcmod.info": "forge_file",
+    "accesstransformer.cfg": "forge_file",
+
+    "quilt.mod.json": "quilt_file",
+
+    "modrinth.index.json": "modrinth_file",
+
+    "pixi.toml": "pixi_file",
+    "pixi-global.toml": "pixi_file",
+
+    "pdxinfo": "playdate_file",
+
+    "haxelib.json": "haxe_file",
+
+    "Pipfile": "python_file",
+    "pyproject.toml": "requirements.txt_file",
+
+    "Gemfile": "ruby_file",
+
+    "cabal.project": "haskell_file",
+    "cabal.project.freeze": "haskell_file",
+    "cabal.project.local": "haskell_file",
+
+    ".gitattributes": "git_file",
+    ".gitmodules": "git_file",
+
+    "config": "config_file",
+    "config.json": "config_file",
+    "settings.json": "config_file",
+    "appsettings.json": "config_file",
+
+    ".eslintrc": "config_file",
+    ".eslintrc.json": "config_file",
+    ".eslintrc.yaml": "config_file",
+    ".eslintrc.yml": "config_file",
+
+    "webpack.config.cjs": "config_file",
+    "webpack.config.mjs": "config_file",
+
+    "Dockerfile": "docker_file",
+
+    "compose.json": "docker_file",
+    "compose.yaml": "docker_file",
+    "compose.yml": "docker_file",
+    "compose.override.json": "docker_file",
+    "compose.override.yaml": "docker_file",
+    "compose.override.yml": "docker_file",
+
+    "docker-compose.yaml": "docker_file",
+    "docker-compose.yml": "docker_file",
+    "docker-compose.override.yaml": "docker_file",
+    "docker-compose.override.yml": "docker_file",
+
+    "gradle-wrapper.properties": "gradle_file",
+    "gradle.properties": "gradle_file",
+    "gradlew": "gradle_file",
+    "gradlew.bat": "gradle_file",
+
+    "ant.xml": "ant_file",
+    "build.xml": "ant_file",
+
+    "language_names.json": "lang_file",
+    "languages.json": "lang_file",
+
+    "flare.json": "flare_file",
+
+    "sandstone.config.ts": "sandstone_file",
+
+    "CHANGELOG": "timeline_file",
+    "CHANGELOG.md": "timeline_file",
+    "CHANGELOG.txt": "timeline_file",
+
+    "CODE_OF_CONDUCT": "pdf_file",
+    "CODE_OF_CONDUCT.md": "pdf_file",
+    "CODE_OF_CONDUCT.txt": "pdf_file"
   },
+
   "fileExtensions": {
     "advancement": "advancement_file",
+    "advancements": "advancement_file",
+
+    "ajblueprint": "ajmeta_file",
     "ajmeta": "ajmeta_file",
+    "ajmodel": "ajmeta_file",
+
     "apk": "android_file",
+    "aab": "android_file",
+    "aar": "android_file",
+    "apks": "android_file",
+    "axml": "android_file",
+    "dalvik": "android_file",
+    "dex": "android_file",
+    "smali": "android_file",
+
     "ant": "ant_file",
+
     "block.json": "blocks_file",
+    "blocks.json": "blocks_file",
+
     "ino": "arduino_file",
-    "item.json": "items_file",
+
     "aseprite": "aseprite_file",
     "ase": "aseprite_file",
     "aseprite-extension": "aseprite_extension_file",
+
     "asm": "assembly_file",
     "s": "assembly_file",
+    "a51": "assembly_file",
+    "armasm": "assembly_file",
+    "gas": "assembly_file",
+    "hla": "assembly_file",
+    "mips": "assembly_file",
+    "mitigus": "assembly_file",
+    "nasm": "assembly_file",
+    "yasm": "assembly_file",
+
     "atlases": "atlases_file",
+
     "attachable.json": "attachables_file",
+    "attachables.json": "attachables_file",
+
     "mp3": "audio_file",
     "wav": "audio_file",
     "ogg": "audio_file",
@@ -83,93 +236,331 @@
     "aac": "audio_file",
     "opus": "audio_file",
     "wma": "audio_file",
-    "alac": "audio_file",
+    "fsb": "audio_file",
+    "ac3": "audio_file",
+    "aif": "audio_file",
+    "aiff": "audio_file",
+    "amr": "audio_file",
+    "ape": "audio_file",
+    "au": "audio_file",
+    "dts": "audio_file",
+    "f4a": "audio_file",
+    "f4b": "audio_file",
+    "gsm": "audio_file",
+    "m4b": "audio_file",
+    "m4p": "audio_file",
+    "mid": "audio_file",
+    "midi": "audio_file",
+    "mka": "audio_file",
+    "mod": "audio_file",
+    "mp2": "audio_file",
+    "mpc": "audio_file",
+    "oga": "audio_file",
+    "pda": "audio_file",
+    "ra": "audio_file",
+    "spx": "audio_file",
+    "wv": "audio_file",
+
     "ahk": "autohotkey_file",
+
     "banner_pattern": "banner_pattern_file",
+
     "beet": "beet_file",
+
     "bin": "binary_file",
     "dat": "binary_file",
+    "blob": "binary_file",
+    "bson": "binary_file",
+    "dll": "binary_file",
+    "dylib": "binary_file",
+    "hex": "binary_file",
+    "jsxbin": "binary_file",
+    "lib": "binary_file",
+    "o": "binary_file",
+    "res": "binary_file",
+    "scn": "binary_file",
+    "sys": "binary_file",
+
     "exe": "executable_file",
+    "app": "executable_file",
+    "appx": "executable_file",
+    "com": "executable_file",
+    "dmg": "executable_file",
+    "msi": "executable_file",
+    "out": "executable_file",
+    "pdx": "executable_file",
+    "pdz": "executable_file",
+    "run": "executable_file",
+
     "razor": "blazor_file",
+    "cshtml": "blazor_file",
+
     "bbmodel": "blockbench_file",
+
     "bolt": "bolt_file",
+
     "bf": "brainfuck_file",
     "b": "brainfuck_file",
+    "bfk": "brainfuck_file",
+    "brainfuck": "brainfuck_file",
+    "brfk": "brainfuck_file",
+
     "c": "c_file",
+    "i": "c_file",
+    "objc": "c_file",
+
     "h": "c_header_file",
+
     "clj": "clojure_file",
     "cljs": "clojure_file",
     "cljc": "clojure_file",
+    "cljd": "clojure_file",
+    "cljr": "clojure_file",
+
     "cfg": "config_file",
+    "cnf": "config_file",
     "conf": "config_file",
+    "conf.dist": "config_file",
+    "config": "config_file",
+    "config.js": "config_file",
+    "config.ts": "config_file",
+    "dist": "config_file",
+    "env": "config_file",
+    "env.development": "config_file",
+    "env.example": "config_file",
+    "env.local": "config_file",
+    "env.production": "config_file",
+    "htaccess": "config_file",
+    "import": "config_file",
     "ini": "config_file",
+    "ini.dist": "config_file",
+    "properties": "config_file",
+    "settings": "config_file",
+
     "cow_variant": "cow_variant_file",
+    "cow_variant.json": "cow_variant_file",
+
     "cpp": "cplusplus_file",
     "cxx": "cplusplus_file",
     "cc": "cplusplus_file",
+    "c++": "cplusplus_file",
+    "ii": "cplusplus_file",
+
     "hpp": "cplusplus_header_file",
     "hxx": "cplusplus_header_file",
     "hh": "cplusplus_header_file",
+    "h++": "cplusplus_header_file",
+    "inl": "cplusplus_header_file",
+    "ipp": "cplusplus_header_file",
+    "pch": "cplusplus_header_file",
+    "tcc": "cplusplus_header_file",
+    "tpp": "cplusplus_header_file",
+
     "cr": "crystal_file",
+
     "cs": "csharp_file",
     "csx": "csharp_file",
+    "csharp": "csharp_file",
+    "csproj": "csharp_file",
+
     "css": "css_file",
+    "less": "css_file",
+    "scss": "css_file",
+
     "damage_type": "damage_type_file",
+    "damage_type.json": "damage_type_file",
+
     "dart": "dart_file",
+
     "db": "database_file",
+    "db3": "database_file",
+    "dbf": "database_file",
+    "fdb": "database_file",
+    "frm": "database_file",
+    "gdb": "database_file",
+    "ldb": "database_file",
+    "mdb": "database_file",
+    "mongodb": "database_file",
+    "myd": "database_file",
+    "myi": "database_file",
+    "nsf": "database_file",
+    "odb": "database_file",
+    "pdb": "database_file",
+    "pgsql": "database_file",
+    "pkb": "database_file",
+    "pks": "database_file",
+    "postgres": "database_file",
+    "psql": "database_file",
+    "sdb": "database_file",
+    "sql": "database_file",
     "sqlite": "database_file",
     "sqlite3": "database_file",
+
     "dialog": "dialog_file",
+    "dialog.json": "dialog_file",
+
     "dimension": "dimension_file",
+    "dimension.json": "dimension_file",
+
     "dimension_type": "dimension_type_file",
+    "dimension_type.json": "dimension_type_file",
+
     "d": "dlang_file",
+
     "dockerfile": "docker_file",
+    "dockerignore": "docker_file",
+
     "doc": "document_file",
     "docx": "document_file",
+    "dot": "document_file",
+    "fodt": "document_file",
+    "ltx": "document_file",
+    "odm": "document_file",
+    "odt": "document_file",
+    "pages": "document_file",
+    "wpd": "document_file",
+    "wps": "document_file",
+
     "ejs": "ejs_file",
+
     "ex": "elixir_file",
     "exs": "elixir_file",
+    "eex": "elixir_file",
+    "heex": "elixir_file",
+    "leex": "elixir_file",
+    "sface": "elixir_file",
+
     "elm": "elm_file",
+
     "enchantment": "enchantment_file",
-    "entities": "entities_file",
+    "enchantment.json": "enchantment_file",
+
+    "entity.json": "entities_file",
+    "entities.json": "entities_file",
+
     "equipment": "equipment_file",
+    "equipment.json": "equipment_file",
+
     "erl": "erlang_file",
     "hrl": "erlang_file",
+
     "xlsx": "excel_file",
     "xls": "excel_file",
+    "xlsb": "excel_file",
+    "xlsm": "excel_file",
+    "xlw": "excel_file",
     "csv": "excel_file",
+    "ods": "excel_file",
+    "psv": "excel_file",
+    "tsv": "excel_file",
+
     "fabric": "fabric_file",
-    "features": "features_file",
+    "accesswidener": "fabric_file",
+
+    "feature.json": "features_file",
+    "feature_rules.json": "features_file",
+    "features.json": "features_file",
+
     "fnl": "fennel_file",
+
     "flare": "flare_file",
-    "fogs": "fogs_file",
-    "font": "font_folder",
+
+    "fog.json": "fogs_file",
+    "fogs.json": "fogs_file",
+    "atmospherics.json": "fogs_file",
+
+    "woff": "font_file",
+    "woff2": "font_file",
+    "ttf": "font_file",
+    "otf": "font_file",
+    "ttc": "font_file",
+    "eot": "font_file",
+    "font": "font_file",
+    "font.json": "font_file",
+    "fontdata": "font_file",
+    "bmap": "font_file",
+    "fnt": "font_file",
+    "fonts": "font_file",
+    "mrf": "font_file",
+    "ntf": "font_file",
+    "odttf": "font_file",
+    "pft": "font_file",
+    "sui": "font_file",
+    "suit": "font_file",
+
     "f": "fortran_file",
+    "f03": "fortran_file",
+    "f08": "fortran_file",
+    "f18": "fortran_file",
+    "f77": "fortran_file",
     "f90": "fortran_file",
     "f95": "fortran_file",
+    "for": "fortran_file",
+    "ftn": "fortran_file",
+
     "fox": "fox_file",
+
     "frag": "fragment_shader_file",
+    "fp": "fragment_shader_file",
+    "fsh": "fragment_shader_file",
+
     "frog_variant": "frog_variant_file",
+    "frog_variant.json": "frog_variant_file",
+
     "fs": "fsharp_file",
     "fsi": "fsharp_file",
     "fsx": "fsharp_file",
+    "fsproj": "fsharp_file",
+
     "gml": "gamemaker_file",
+    "yy": "gamemaker_file",
+    "yymp": "gamemaker_file",
+    "yyp": "gamemaker_file",
+    "yyz": "gamemaker_file",
+
     "gleam": "gleam_file",
+
     "glsl": "glsl_file",
+    "comp": "glsl_file",
+    "geom": "glsl_file",
+    "hlsl": "glsl_file",
+    "tesc": "glsl_file",
+    "tese": "glsl_file",
+    "wgsl": "glsl_file",
+
     "vert": "vertex_shader_file",
+    "vsh": "vertex_shader_file",
+
     "go": "go_file",
+
     "gradle": "gradle_file",
+    "gradle.kts": "gradle_file",
+
     "graphql": "graphql_file",
     "gql": "graphql_file",
+    "graphqls": "graphql_file",
+
     "groovy": "groovy_file",
     "gvy": "groovy_file",
+
     "hs": "haskell_file",
     "lhs": "haskell_file",
+    "cabal": "haskell_file",
+
     "hx": "haxe_file",
+
     "hjmc": "hjmc_file",
+
     "hc": "holy_c_file",
+    "hc.z": "holy_c_file",
+
     "html": "html_file",
     "htm": "html_file",
+    "hta": "html_file",
+    "htmls": "html_file",
+    "xht": "html_file",
+    "xhtml": "html_file",
+
     "png": "image_file",
     "jpg": "image_file",
     "jpeg": "image_file",
@@ -178,125 +569,362 @@
     "ico": "image_file",
     "bmp": "image_file",
     "tiff": "image_file",
+    "tif": "image_file",
+    "svg": "image_file",
+    "svgz": "image_file",
+    "avif": "image_file",
+    "dds": "image_file",
+    "heic": "image_file",
+    "heif": "image_file",
+    "icns": "image_file",
+    "jfif": "image_file",
+    "jp2": "image_file",
+    "kra": "image_file",
+    "mdp": "image_file",
+    "ora": "image_file",
+    "psd": "image_file",
+    "raw": "image_file",
+    "sai": "image_file",
+    "tga": "image_file",
+    "xcf": "image_file",
+
     "instrument": "instrument_file",
+    "instrument.json": "instrument_file",
+
     "item_modifier": "item_modifier_file",
-    "items": "items_file",
+    "item_modifier.json": "item_modifier_file",
+    "item_modifiers.json": "item_modifier_file",
+    "item_catalog.json": "item_modifier_file",
+
+    "item.json": "items_file",
+    "items.json": "items_file",
+
     "jar": "jar_file",
+
     "java": "java_file",
+    "class": "java_file",
+    "jmod": "java_file",
+    "jsp": "java_file",
+    "jws": "java_file",
+
     "js": "javascript_file",
     "jsx": "javascript_file",
     "cjs": "javascript_file",
     "mjs": "javascript_file",
+    "jsm": "javascript_file",
+    "jss": "javascript_file",
+    "es6": "javascript_file",
+    "jake": "javascript_file",
+    "pac": "javascript_file",
+
     "jmc": "jmc_file",
+
     "json": "json_file",
     "jsonc": "json_file",
     "json5": "json_file",
-    "jsonbe": "json_file",
+    "jsonl": "json_file",
+    "jsonld": "json_file",
+    "ndjson": "json_file",
+    "har": "json_file",
+    "pdt": "json_file",
+    "topojson": "json_file",
+    "webmanifest": "json_file",
+
     "jukebox_song": "jukebox_song_file",
+    "jukebox_song.json": "jukebox_song_file",
+
     "jl": "julia_file",
+
     "kt": "kotlin_file",
     "kts": "kotlin_file",
+
     "lang": "lang_file",
+    "lang.json": "lang_file",
+
     "tex": "latex_file",
     "sty": "latex_file",
     "cls": "latex_file",
+
     "lisp": "lisp_file",
     "lsp": "lisp_file",
-    "el": "lisp_file",
+    "fasl": "lisp_file",
+
     "lock": "lock_file",
+    "checksum": "lock_file",
+    "crc": "lock_file",
+    "hash": "lock_file",
+    "hashes": "lock_file",
+    "lock.json": "lock_file",
+    "lockb": "lock_file",
+    "lockfile": "lock_file",
+    "md5": "lock_file",
+    "sha1": "lock_file",
+    "sha256": "lock_file",
+    "sha512": "lock_file",
+
     "log": "log_file",
+    "dmp": "log_file",
+    "dump": "log_file",
+    "err": "log_file",
+    "tmp": "log_file",
+
     "loom": "loom_file",
+    "loom.gradle": "loom_file",
+    "loom.gradle.kts": "loom_file",
+
     "loot_table.json": "loot_table_file",
+    "loot_tables.json": "loot_table_file",
+
     "lua": "lua_file",
-    "md": "markdown_file",
-    "mdx": "markdown_file",
-    "markdown": "markdown_file",
-    "material": "materials_file",
-    "mcbuild": "mcbuild_file",
+    "luac": "lua_file",
+    "luau": "lua_file",
+    "luc": "lua_file",
+
+    "mcb": "mcbuild_file",
+    "mcbt": "mcbuild_file",
+
     "mcfunction": "mcfunction_file",
+
     "geo.json": "models_file",
+
     "modrinth": "modrinth_file",
+    "modrinth.json": "modrinth_file",
+    "mrpack": "modrinth_file",
+
     "mojo": "mojo_file",
+    "mojom": "mojo_file",
+
     "moon": "moonscript_file",
+
     "nbt": "nbt_file",
+
     "nim": "nim_file",
+    "nim.cfg": "nim_file",
+    "nimble": "nim_file",
+    "nims": "nim_file",
+
     "m": "objective_c_file",
     "mm": "objective_c_file",
+
     "ml": "ocaml_file",
     "mli": "ocaml_file",
+
     "odin": "odin_file",
+
     "particle.json": "particles_file",
+    "particles.json": "particles_file",
+
     "pas": "pascal_file",
     "pp": "pascal_file",
+    "dpr": "pascal_file",
+    "inc": "pascal_file",
+    "lpr": "pascal_file",
+
     "pdf": "pdf_file",
+    "rtf": "pdf_file",
+
     "pl": "perl_file",
     "pm": "perl_file",
+    "pls": "perl_file",
+    "plx": "perl_file",
+    "xs": "perl_file",
+
     "php": "php_file",
+
     "pig_variant": "pig_variant_file",
+    "pig_variant.json": "pig_variant_file",
+
     "pixi": "pixi_file",
+
     "playdate": "playdate_file",
+
     "predicate": "predicate_file",
+    "predicate.json": "predicate_file",
+    "predicates.json": "predicate_file",
+
     "prisma": "prisma_file",
+
     "pyc": "python_compiled_file",
     "pyo": "python_compiled_file",
     "pyd": "python_compiled_file",
+    "whl": "python_compiled_file",
+
     "py": "python_file",
     "pyw": "python_file",
+    "pyi": "python_file",
+    "pyp": "python_file",
+    "pyt": "python_file",
+    "pyde": "python_file",
+    "ipynb": "python_file",
+
     "quilt": "quilt_file",
+
     "re": "reason_react_file",
     "rei": "reason_react_file",
+
     "recipe.json": "recipe_file",
+    "recipes.json": "recipe_file",
+    "mak": "recipe_file",
+    "make": "recipe_file",
+    "mk": "recipe_file",
+    "zs": "recipe_file",
+
     "render_controller.json": "render_controllers_file",
-    "rc.json": "render_controllers_file",
+    "render_controllers.json": "render_controllers_file",
+
     "r": "rlang_file",
     "rmd": "rlang_file",
+    "rda": "rlang_file",
+    "rdata": "rlang_file",
+    "rds": "rlang_file",
+    "rhistory": "rlang_file",
+    "rprofile": "rlang_file",
+    "rproj": "rlang_file",
+
     "rss": "rss_file",
+
     "rb": "ruby_file",
+    "erb": "ruby_file",
+    "gemspec": "ruby_file",
+    "jbuilder": "ruby_file",
+    "mspec": "ruby_file",
+    "podspec": "ruby_file",
+    "rabl": "ruby_file",
+    "rbi": "ruby_file",
+    "rbs": "ruby_file",
+    "rake": "ruby_file",
+
     "rs": "rust_file",
+    "rlib": "rust_file",
+    "ron": "rust_file",
+
     "scala": "scala_file",
     "sc": "scala_file",
+
     "shaders": "shaders_file",
+
     "sh": "shell_file",
     "bash": "shell_file",
     "zsh": "shell_file",
     "fish": "shell_file",
+    "ash": "shell_file",
+    "awk": "shell_file",
+    "bat": "shell_file",
+    "bsh": "shell_file",
+    "cmd": "shell_file",
+    "command": "shell_file",
+    "csh": "shell_file",
+    "exp": "shell_file",
+    "ksh": "shell_file",
+    "ksh93": "shell_file",
+    "mksh": "shell_file",
+    "nu": "shell_file",
+    "pdksh": "shell_file",
+    "ps1": "shell_file",
+    "ps1xml": "shell_file",
+    "psc1": "shell_file",
+    "psd1": "shell_file",
+    "psm1": "shell_file",
+    "pssc": "shell_file",
+    "rbash": "shell_file",
+    "rc": "shell_file",
+    "tcl": "shell_file",
+    "tcsh": "shell_file",
+
     "spawn_rules.json": "spawn_rules_file",
-    "sponge_mixins": "sponge_mixins_file",
+
+    "mixins.json": "sponge_mixins_file",
+    "refmap.json": "sponge_mixins_file",
+    "mixins.java": "sponge_mixins_file",
+
     "spwn": "spwn_file",
+
     "spyglass": "spyglass_file",
+    "mcdoc": "spyglass_file",
+    "spyglass.json": "spyglass_file",
+
     "mcstructure": "structure_file",
+    "structure.nbt": "structure_file",
+    "structures.nbt": "structure_file",
+
     "sulfur_cube_archetype": "sulfur_cube_archetype_file",
+    "sulfur_cube_archetype.json": "sulfur_cube_archetype_file",
+
     "svelte": "svelte_file",
+
     "swift": "swift_file",
+    "swiftdeps": "swift_file",
+    "swiftdoc": "swift_file",
+    "swiftinterface": "swift_file",
+    "swiftmodule": "swift_file",
+    "swiftsourceinfo": "swift_file",
+
     "tags": "tags_file",
+
     "tf": "terraform_file",
-    "tfvars": "terraform_file",
+
     "test_environment": "test_environment_file",
+    "test_environment.json": "test_environment_file",
+
     "test_instance": "test_instance_file",
+    "test_instance.json": "test_instance_file",
+
     "test.js": "test_js_file",
+    "test.mjs": "test_js_file",
+    "test.cjs": "test_js_file",
     "test.jsx": "test_js_file",
     "spec.js": "test_js_file",
+    "spec.cjs": "test_js_file",
+    "spec.mjs": "test_js_file",
     "spec.jsx": "test_js_file",
+
     "test.ts": "test_ts_file",
+    "test.cts": "test_ts_file",
+    "test.mts": "test_ts_file",
     "test.tsx": "test_ts_file",
     "spec.ts": "test_ts_file",
+    "spec.cts": "test_ts_file",
+    "spec.mts": "test_ts_file",
     "spec.tsx": "test_ts_file",
+
     "txt": "text_file",
+
     "timeline": "timeline_file",
+
     "toml": "toml_file",
+
     "trading.json": "trading_file",
+    "trade_set.json": "trading_file",
+    "villager_trade.json": "trading_file",
+
     "trial_spawner": "trial_spawner_file",
+    "trial_spawner.json": "trial_spawner_file",
+
     "trim.material": "trim_material_file",
+    "trim_material.json": "trim_material_file",
+
     "trim_pattern": "trim_pattern_file",
+    "trim_pattern.json": "trim_pattern_file",
+    "tmpl": "trim_pattern_file",
+
     "ts": "typescript_file",
     "tsx": "typescript_file",
     "mts": "typescript_file",
     "cts": "typescript_file",
+    "tsbuildinfo": "typescript_file",
+
     "typ": "typst_file",
+
     "ui.json": "ui_file",
-    "ui": "ui_file",
+
     "vala": "vala_file",
+    "vapi": "vala_file",
+
     "vpk": "valve_file",
+    "bsp": "valve_file",
+    "vmf": "valve_file",
+    "vmt": "valve_file",
+
     "mp4": "video_file",
     "mkv": "video_file",
     "avi": "video_file",
@@ -304,20 +932,63 @@
     "webm": "video_file",
     "flv": "video_file",
     "wmv": "video_file",
+    "3gp": "video_file",
+    "3g2": "video_file",
+    "amv": "video_file",
+    "asf": "video_file",
+    "blockyanim": "video_file",
+    "f4p": "video_file",
+    "f4v": "video_file",
+    "gifv": "video_file",
+    "m4v": "video_file",
+    "mpe": "video_file",
+    "mpeg": "video_file",
+    "mpg": "video_file",
+    "mpv": "video_file",
+    "mxf": "video_file",
+    "nsv": "video_file",
+    "ogv": "video_file",
+    "pdv": "video_file",
+    "qt": "video_file",
+    "rm": "video_file",
+    "roq": "video_file",
+    "svi": "video_file",
+    "vob": "video_file",
+    "yuv": "video_file",
+
     "vim": "vim_file",
+
     "v": "vlang_file",
+
     "vs": "vs_file",
+
     "vscode": "vscode_file",
+
     "waypoint_style": "waypoint_style_file",
+    "waypoint_style.json": "waypoint_style_file",
+
     "wasm": "web_assembly_file",
     "wat": "web_assembly_file",
+
     "wolf_variant": "wolf_variant_file",
+    "wolf_variant.json": "wolf_variant_file",
+
     "worldgen": "worldgen_file",
+    "biome.json": "worldgen_file",
+    "biomes.json": "worldgen_file",
+
     "xml": "xml_file",
-    "svg": "xml_file",
+
     "yaml": "yaml_file",
     "yml": "yaml_file",
+
     "zig": "zig_file",
+    "zir": "zig_file",
+    "zon": "zig_file",
+
+    "zombie_nautilus_variant": "zombie_nautilus_variant_file",
+    "zombie_nautilus_variant.json": "zombie_nautilus_variant_file",
+
     "zip": "archive_file",
     "tar": "archive_file",
     "gz": "archive_file",
@@ -325,6 +996,25 @@
     "rar": "archive_file",
     "bz2": "archive_file",
     "xz": "archive_file",
-    "zombie_nautilus_variant": "zombie_nautilus_variant_file"
+    "ace": "archive_file",
+    "arj": "archive_file",
+    "asar": "archive_file",
+    "bak": "archive_file",
+    "br": "archive_file",
+    "bzip2": "archive_file",
+    "cab": "archive_file",
+    "gzip": "archive_file",
+    "iso": "archive_file",
+    "lz4": "archive_file",
+    "lzma": "archive_file",
+    "pak": "archive_file",
+    "rpm": "archive_file",
+    "squashfs": "archive_file",
+    "sublime-package": "archive_file",
+    "tgz": "archive_file",
+    "txz": "archive_file",
+    "tz": "archive_file",
+    "vhd": "archive_file",
+    "zst": "archive_file"
   }
 }

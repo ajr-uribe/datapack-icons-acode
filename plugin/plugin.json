@@ -15,6 +15,7 @@
 	],
 	"price": 0,
 	"permissions": [],
+  "changelogs": "CHANGELOG.md",
 	"author": {
 		"name": "ajr_uribe",
 		"email": "anthonyuribe3456@gmail.com",
