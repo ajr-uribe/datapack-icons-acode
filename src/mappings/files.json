@@ -122,7 +122,7 @@
     "haxelib.json": "haxe_file",
 
     "Pipfile": "python_file",
-    "pyproject.toml": "requirements.txt_file",
+    "pyproject.toml": "requirements_txt_file",
 
     "Gemfile": "ruby_file",
 
