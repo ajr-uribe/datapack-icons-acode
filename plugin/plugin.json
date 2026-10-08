@@ -3,7 +3,7 @@
 	"id": "ajr.datapack_icons.acode",
 	"name": "Datapack Icons",
 	"main": "main.js",
-	"version": "1.0.1",
+	"version": "1.0.3",
 	"repository": "https://github.com/ajr-uribe/datapack-icons-acode",
 	"icon": "icon.png",
 	"minVersionCode": 1012,
@@ -11,6 +11,7 @@
 	"keywords": [
 		"codemirror",
 		"minecraft",
+    "datapack",
     "icons"
 	],
 	"price": 0,

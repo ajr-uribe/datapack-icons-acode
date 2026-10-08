@@ -680,6 +680,9 @@
     "luau": "lua_file",
     "luc": "lua_file",
 
+    "md": "markdown_file",
+    "mdx": "markdown_file",
+
     "mcb": "mcbuild_file",
     "mcbt": "mcbuild_file",
 
